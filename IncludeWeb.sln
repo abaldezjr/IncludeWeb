@@ -3,7 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IncludeWeb", "IncludeWeb\IncludeWeb.csproj", "{94CD1B9E-A2B3-4FF4-B1F8-132D6A88BE46}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IncludeWeb.API", "IncludeWeb\IncludeWeb.API.csproj", "{94CD1B9E-A2B3-4FF4-B1F8-132D6A88BE46}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IncludeWeb.CrossCutting", "IncludeWeb.CrossCutting\IncludeWeb.CrossCutting.csproj", "{A232D349-91EA-49C1-8AA3-7FB3CDD4FA7A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IncludeWeb.Domain", "IncludeWeb.Domain\IncludeWeb.Domain.csproj", "{EF9F891D-6402-49B4-B6BD-1FDC5CD4213A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IncludeWeb.Infrastructure", "IncludeWeb.Infrastructure\IncludeWeb.Infrastructure.csproj", "{1AA65BBC-2348-4B9A-ABD2-A647664DB3DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IncludeWeb.Middleware", "IncludeWeb.Middleware\IncludeWeb.Middleware.csproj", "{32C8280A-F882-4AC6-80D9-5E1D4FEB01E7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +23,22 @@ Global
 		{94CD1B9E-A2B3-4FF4-B1F8-132D6A88BE46}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{94CD1B9E-A2B3-4FF4-B1F8-132D6A88BE46}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{94CD1B9E-A2B3-4FF4-B1F8-132D6A88BE46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A232D349-91EA-49C1-8AA3-7FB3CDD4FA7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A232D349-91EA-49C1-8AA3-7FB3CDD4FA7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A232D349-91EA-49C1-8AA3-7FB3CDD4FA7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A232D349-91EA-49C1-8AA3-7FB3CDD4FA7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF9F891D-6402-49B4-B6BD-1FDC5CD4213A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF9F891D-6402-49B4-B6BD-1FDC5CD4213A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF9F891D-6402-49B4-B6BD-1FDC5CD4213A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF9F891D-6402-49B4-B6BD-1FDC5CD4213A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AA65BBC-2348-4B9A-ABD2-A647664DB3DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AA65BBC-2348-4B9A-ABD2-A647664DB3DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AA65BBC-2348-4B9A-ABD2-A647664DB3DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AA65BBC-2348-4B9A-ABD2-A647664DB3DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32C8280A-F882-4AC6-80D9-5E1D4FEB01E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32C8280A-F882-4AC6-80D9-5E1D4FEB01E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32C8280A-F882-4AC6-80D9-5E1D4FEB01E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32C8280A-F882-4AC6-80D9-5E1D4FEB01E7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
