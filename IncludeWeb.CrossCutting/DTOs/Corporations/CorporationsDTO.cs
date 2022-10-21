@@ -9,5 +9,7 @@ namespace IncludeWeb.CrossCutting.DTOs.Corporations
     public class CorporationsDTO
     {
         public long Id { get; set; }
+        public long Name { get; set; }
+
     }
 }
